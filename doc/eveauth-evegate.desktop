@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+StartupNotify=true
+Terminal=true
+Type=Application
+Name=Eve Online Callback Application
+Comment=Provides callback handler for the EVE Single Sign-On (SSO) technology
+TryExec=evegate
+Exec=evegate --auth %u
+MimeType=x-scheme-handler/eveauth-evegate;
+Icon=evegate
