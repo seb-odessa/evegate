@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+StartupNotify=true
+Terminal=true
+Type=Application
+Name=Eve Online Callback Application
+Comment=https://askubuntu.com/questions/179628/how-can-i-open-irc-links-in-pidgin-from-chromium
+TryExec=evegate
+Exec=evegate %u
+MimeType=x-scheme-handler/evegate;
+Icon=evegate
