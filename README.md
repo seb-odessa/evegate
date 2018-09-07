@@ -26,3 +26,8 @@ $ xdg-open eveauth-evegate://foo/
 
 -Try to receive external request
 $ xdg-open https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=eveauth-evegate://auth/&client_id=<...>&scope=publicData&state=A
+
+Application details: https://developers.eveonline.com/applications/details/37869
+
+
+
