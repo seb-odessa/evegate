@@ -28,8 +28,11 @@ $ xdg-open eveauth-evegate://foo/
 $ xdg-open https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=eveauth-evegate://auth/&client_id=<...>&scope=publicData&state=A
 
 Application details: https://developers.eveonline.com/applications/details/37869
+ESI API: https://esi.evetech.net/latest/?datasource=tranquility
+eve SSO https://eveonline-third-party-documentation.readthedocs.io/en/latest/sso/index.html
 
 
+========================================================================
 
 STEP 1
 https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=http://host/callback&client_id=<...>&scope=publicData&state=A
