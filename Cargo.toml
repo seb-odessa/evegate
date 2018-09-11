@@ -4,5 +4,8 @@ version = "0.1.0"
 authors = ["seb"]
 
 [dependencies]
-    rocket = "*"
+    log = "*"
+    simplelog = "*"
+    reqwest = "*"
+    rocket = "*"    
     rocket_codegen = "*"

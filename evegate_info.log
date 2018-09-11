@@ -1,0 +1,18 @@
+09:54:19 [INFO] main <= ["evegate", "eveauth-evegate://auth/&client_id=<...>&scope=publicData&state=A"]
+09:54:19 [INFO] handle_args <= ["evegate", "eveauth-evegate://auth/&client_id=<...>&scope=publicData&state=A"]
+09:54:19 [INFO] handle_args .. "evegate eveauth-evegate://auth/&client_id=<...>&scope=publicData&state=A"
+09:54:19 [INFO] transform_uri <= "eveauth-evegate://auth/&client_id=<...>&scope=publicData&state=A"
+09:54:19 [INFO] 🔧  Configured for development.
+09:54:19 [INFO] address: [37m0.0.0.0[0m
+09:54:19 [INFO] port: [37m8001[0m
+09:54:19 [INFO] log: [37mnormal[0m
+09:54:19 [INFO] workers: [37m1[0m
+09:54:19 [INFO] secret key: [37mgenerated[0m
+09:54:19 [INFO] limits: [37mforms = 32KiB, json* = 1MiB, msgpack* = 1MiB[0m
+09:54:19 [INFO] tls: [37mdisabled[0m
+09:54:19 [INFO] [33m[extra][0m is_extra: [37mtrue[0m
+09:54:19 [INFO] [32mGET[0m [34m/auth/&client_id=%3C...%3E&scope=publicData&state=A[0m:
+09:54:19 [ERROR] No matching routes for [32mGET[0m [34m/auth/&client_id=%3C...%3E&scope=publicData&state=A[0m.
+09:54:19 [WARN]09:54:19 [INFO] handle_args .. response = Ok(Response { url: "http://localhost:8001/auth/&client_id=%3C...%3E&scope=publicData&state=A", status: NotFound, headers: {"Content-Type": "text/html; charset=utf-8", "Server": "Rocket", "Content-Length": "496", "Date": "Tue, 11 Sep 2018 09:54:19 GMT"} })
+09:54:19 [INFO] handle_args => Ok(())
+09:54:19 [INFO] main => Ok(())
